@@ -7,6 +7,7 @@ export default function App() {
         style={styles.logo}
         source={{uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7C0NlbHXsMpd67_3fP8sauaf7Xy2cDkCNMVcN6imz158sgpE0eFyx_5xK&s=10'}}
       />
+      <Text style={{fontSize: 30, fontWeight: 'bold', marginBottom: 50}}>Ninja Dojo</Text>
 
       <View style={{marginBottom: 10}}>
         <Text>Seu email: </Text>
@@ -44,7 +45,6 @@ const styles = StyleSheet.create({
     width: 90,
     height: 90,
     borderRadius: 10,
-    marginBottom: 50,
     borderWidth: 2
   },
   botao_login: {
